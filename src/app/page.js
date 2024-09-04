@@ -1,10 +1,14 @@
 
+"use client"
 import Hero from "./componets/Hero";
-import LaptopModel from "./componets/LaptopModel";
+import dynamic from "next/dynamic";
+// import LaptopModel from "./componets/LaptopModel";
 import Nav from "./componets/Nav";
 import About from "./componets/About"
 import Contact from "./componets/Contact"
-
+const LaptopModel = dynamic(() => import('./componets/LaptopModel'), {
+  ssr: false, // Ensures this component is only rendered on the client
+})
 export default function Home() {
   return (
     <main className="">
