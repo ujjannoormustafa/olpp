@@ -11,9 +11,9 @@ export default function LaptopModel() {
             <div className="flex justify-center items-center threeDbox p-4">
                 <div className="lg:w-8/12 w-full flex justify-evenly items-top ">
                     <div className="lg:pl-12 ">
-                        <h2 className="text-7xl font-bold text-blue-700 mb-4">What is OLPP?</h2>
+                        <h2 className="lg:text-7xl text-4xl font-bold text-blue-700 mb-4">What is OLPP?</h2>
                         <p className="text-lg text-gray-600">One laptop per Pakistani</p>
-                        <p className="text-sm w-3/4 my-6 text-gray-900">Rehan Allahwala’s visionary initiative offers Chromebook laptops to every Pakistani at an affordable monthly installment of 1000 PKR. Starting with students and aspiring freelancers, this effort aims to democratize access to technology, fostering entrepreneurship and bridging the digital divide across Pakistan.</p>
+                        <p className="text-sm lg:w-3/4 my-6 text-gray-900">Rehan Allahwala’s visionary initiative offers Chromebook laptops to every Pakistani at an affordable monthly installment of 1000 PKR. Starting with students and aspiring freelancers, this effort aims to democratize access to technology, fostering entrepreneurship and bridging the digital divide across Pakistan.</p>
                         <button className="btn">Buy Now</button>
                     </div>
                 </div>
