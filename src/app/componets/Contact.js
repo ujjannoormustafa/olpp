@@ -25,7 +25,7 @@ const ContactSection = () => {
 
             </section> */}
 
-            <section className="text-gray-600 body-font">
+            <section className="text-gray-600 body-font" id="contact">
                 <div className="container px-5 py-24 mx-auto flex flex-wrap items-center">
                     <div className="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
                         <h1 className="title-font font-bold text-5xl text-blue-700">

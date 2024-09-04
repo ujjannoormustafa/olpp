@@ -227,6 +227,10 @@ footer {
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Responsive styles */
 @media (max-width: 768px) {
   nav {

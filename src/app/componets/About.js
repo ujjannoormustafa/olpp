@@ -25,7 +25,7 @@ const AboutSection = () => {
                     </a>
                 </div>
             </section> */}
-            <section className="video-section">
+            <section className="video-section" id='about'>
                 <h2 className="text-6xl font-bold text-blue-700 mb-8">Check out our YouTube video</h2>
                 <div className="flex justify-center">
                     <iframe

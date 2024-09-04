@@ -3,19 +3,22 @@ import Link from 'next/link';
 const Nav = () => {
     return (
         <nav>
-            <div className="logo">Olpp</div>
+            <Link href={"/"}>
+                <div className="logo">Olpp</div>
+
+            </Link>
             <ul>
                 <li>
-                    <Link href="/home">Home</Link>
+                    <Link href="/">Home</Link>
                 </li>
                 <li>
-                    <Link href="/services">Services</Link>
+                    <Link href="#vision">Vision</Link>
                 </li>
                 <li>
-                    <Link href="/about">About</Link>
+                    <Link href="#about">About</Link>
                 </li>
                 <li>
-                    <Link href="/contact">Contact Us</Link>
+                    <Link href="#contact">Contact Us</Link>
                 </li>
             </ul>
         </nav>

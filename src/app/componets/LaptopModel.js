@@ -6,7 +6,7 @@ export default function LaptopModel() {
     const { scene } = useGLTF('/scene.gltf');
 
     return (
-        <div className="bg pb-8">
+        <div className="bg pb-8" id='vision'>
             <h1 className="text-6xl font-bold text-center herotxt text-gray-800 pt-20">Our Vision</h1>
             <div className="flex justify-center items-center threeDbox p-4">
                 <div className="lg:w-8/12 w-full flex justify-evenly items-top ">
