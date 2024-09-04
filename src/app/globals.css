@@ -245,6 +245,10 @@ footer {
     display: none;
   }
 
+  .threeDbox {
+    flex-direction: column;
+  }
+
   .about,
   .contact {
     flex-direction: column;
