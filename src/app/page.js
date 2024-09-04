@@ -3,6 +3,7 @@
 import Hero from "./componets/Hero";
 import dynamic from "next/dynamic";
 // import LaptopModel from "./componets/LaptopModel";
+import ContactUs from "./componets/ContactUs"
 import Nav from "./componets/Nav";
 import About from "./componets/About"
 import Contact from "./componets/Contact"
@@ -17,6 +18,7 @@ export default function Home() {
       <LaptopModel />
       <About />
       <Contact />
+      {/* <ContactUs /> */}
     </main>
   );
 }

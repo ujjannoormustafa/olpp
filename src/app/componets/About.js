@@ -1,5 +1,4 @@
 // components/AboutSection.js
-import Image from 'next/image';
 
 const AboutSection = () => {
     return (
